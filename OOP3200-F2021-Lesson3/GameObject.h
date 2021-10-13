@@ -14,8 +14,8 @@ public:
     ~GameObject();
 
 	// Getters and Setters
-	Transform* getTransform();
-	void setTransform(const Transform& transform);
+	Transform<float>* getTransform();
+	void setTransform(const Transform<float>& transform);
 	std::string getName() const;
 	void setName(const std::string& name);
 
@@ -28,7 +28,7 @@ public:
 
 private:
 	std::string m_name;
-    Transform m_transform;
+    Transform<float> m_transform;
 };
 
 #endif /* defined (__GAME_OBJECT__) */

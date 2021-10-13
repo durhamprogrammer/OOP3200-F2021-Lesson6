@@ -22,7 +22,7 @@ void GameObject::setName(const std::string& name)
 /**
  * @return Transform
  */
-Transform* GameObject::getTransform()
+Transform<float>* GameObject::getTransform()
 {
     return &m_transform;
 }
@@ -30,7 +30,7 @@ Transform* GameObject::getTransform()
 /**
  * @param transform
  */
-void GameObject::setTransform(const Transform& transform)
+void GameObject::setTransform(const Transform<float>& transform)
 {
     m_transform = transform;
 }

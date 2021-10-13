@@ -13,18 +13,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Mathf.cpp">
-      <Filter>Core</Filter>
-    </ClCompile>
-    <ClCompile Include="Transform.cpp">
-      <Filter>Core</Filter>
-    </ClCompile>
-    <ClCompile Include="Vector2D.cpp">
-      <Filter>Core</Filter>
-    </ClCompile>
-    <ClCompile Include="Vector3D.cpp">
-      <Filter>Core</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Core</Filter>
     </ClCompile>
@@ -34,27 +22,27 @@
     <ClCompile Include="GameObject.cpp">
       <Filter>Core</Filter>
     </ClCompile>
+    <ClCompile Include="Mathf.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
     <ClCompile Include="Scene.cpp">
       <Filter>Core</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Mathf.h">
-      <Filter>Core</Filter>
-    </ClInclude>
-    <ClInclude Include="Transform.h">
-      <Filter>Core</Filter>
-    </ClInclude>
     <ClInclude Include="Vector2D.h">
       <Filter>Core</Filter>
     </ClInclude>
-    <ClInclude Include="Vector3D.h">
+    <ClInclude Include="Transform.h">
       <Filter>Core</Filter>
     </ClInclude>
     <ClInclude Include="DisplayObject.h">
       <Filter>Core</Filter>
     </ClInclude>
     <ClInclude Include="GameObject.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathf.h">
       <Filter>Core</Filter>
     </ClInclude>
     <ClInclude Include="Scene.h">
